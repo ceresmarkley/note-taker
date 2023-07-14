@@ -1,0 +1,12 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "A back end note taking application with front end user interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
