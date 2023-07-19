@@ -1,8 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const uuidv4 = require('uuid').v4();
-console.log(uuidv4);
+const { v4: uuidv4 } = require('uuid');
 
 const api = express.Router();
 api.get('/api/notes', (req, res) => {
