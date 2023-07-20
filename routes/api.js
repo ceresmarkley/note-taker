@@ -8,7 +8,7 @@ api.get('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, '../db/db.json'), 'utf8', (err, data) => {
         if (err) {
             console.error(err);
-            return res.status(400).json({ error: 'Failed to read notes, please check the routes or there is no saved note' });
+            return res.status(400).json({ error: 'Failed! Unable to read notes. Please check routes.' });
         }
         const notes = JSON.parse(data);
         res.json(notes);
@@ -29,7 +29,7 @@ api.post('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, '../db/db.json'), 'utf8', (err, data) => {
         if (err) {
             console.error(err);
-            return res.status(400).json({ error: 'Failed to read notes' });
+            return res.status(400).json({ error: 'Failed! Unable to read notes.' });
         }
 
         const notes = JSON.parse(data);
@@ -39,7 +39,7 @@ api.post('/api/notes', (req, res) => {
         fs.writeFile(path.join(__dirname, '../db/db.json'), JSON.stringify(notes), (err) => {
             if (err) {
                 console.error(err);
-                return res.status(500).json({ error: 'Failed to save note' });
+                return res.status(500).json({ error: 'Failed! Unable to save notes.' });
             }
 
             res.json(inputNote);
@@ -52,7 +52,7 @@ api.delete('/api/notes/:id', (req, res) => {
     fs.readFile(path.join(__dirname, '../db/db.json'), 'utf8', (err, data) => {
         if (err) {
             console.error(err);
-            return res.status(400).json({ error: 'Failed to read notes' });
+            return res.status(400).json({ error: 'Failed! Unable to read notes.' });
         }
 
         const notes = JSON.parse(data);
@@ -66,9 +66,9 @@ api.delete('/api/notes/:id', (req, res) => {
         fs.writeFile(path.join(__dirname, '../db/db.json'), JSON.stringify(newNotes), (err) => {
             if (err) {
                 console.error(err);
-                return res.status(500).json({ error: 'Failed to delete note' });
+                return res.status(500).json({ error: 'Failed! Note was not deleted' });
             }
-            res.status(200).json({ wow: 'You just delete a note.' })
+            res.status(200).json({ wow: 'Note Deleted!' })
         });
     });
 });
