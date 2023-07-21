@@ -64,7 +64,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 Click [HERE](https://github.com/ceresmarkley/note-taker) for github repo.    
 
-Click [HERE](https://note-taker-v16-f8f3c838c7c9.herokuapp.com/notes) for deployed heroku application.   
+Click [HERE](https://note-taker-v16-f8f3c838c7c9.herokuapp.com/) for deployed heroku application.   
 
 [*back to top*](#table-of-contents)
 ## Sources 
