@@ -60,7 +60,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 [*back to top*](#table-of-contents)
 ## Usage
-Starter Code given from bootcamp (public folder files) - https://github.com/coding-boot-camp/miniature-eureka
+![image](https://github.com/ceresmarkley/note-taker/assets/129554518/a04bba02-d79e-447f-b713-bd30865e6d45)
+
+Click [HERE](https://github.com/ceresmarkley/note-taker) for github repo.    
+
+Click [HERE](https://note-taker-v16-f8f3c838c7c9.herokuapp.com/notes) for deployed heroku application.   
 
 [*back to top*](#table-of-contents)
 ## Sources 
