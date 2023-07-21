@@ -60,12 +60,13 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 [*back to top*](#table-of-contents)
 ## Usage
-
+Starter Code given from bootcamp (public folder files) - https://github.com/coding-boot-camp/miniature-eureka
 
 [*back to top*](#table-of-contents)
 ## Sources 
-Starter Code given from bootcamp (public folder files) - https://github.com/coding-boot-camp/miniature-eureka   
+Starter Code given from bootcamp (public folder files) - https://github.com/coding-boot-camp/miniature-eureka     
 [*back to top*](#table-of-contents)
+
 ---
 
 © 2023 Ceres Markley. All Rights Reserved.
