@@ -1,5 +1,6 @@
+// The code above will create a simple web server that can serve static files, handle URL-encoded form data, and JSON data. 
+// The api route will be used to handle API requests, and the html route will be used to serve static HTML files.
 const express = require('express');
-// require routes for html and api js files
 const html = require('./routes/html');
 const api = require('./routes/api');
 
